@@ -1,9 +1,8 @@
 Movie Recommendation System
 
-A machine learning project that recommends movies to users based on their interests using:
+A project that recommends movies to users based on their interests using:
 - Popularity-based filtering
-- Content-based filtering
-- Collaborative filtering
+- Content-based filtering (cosine similarity)
 
 ## Dataset
 Used the [MovieLens 100k latest dataset](https://grouplens.org/datasets/movielens/latest/).
@@ -15,6 +14,6 @@ Used the [MovieLens 100k latest dataset](https://grouplens.org/datasets/movielen
 - Collaborative filtering using SVD
 
 ## Demo
-(Coming soon: Streamlit app demo)
+streamlit webapp
 
 
