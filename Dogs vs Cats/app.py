@@ -3,7 +3,7 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 
-model = tf.keras.models.load_model("models/my_model.h5")
+model = tf.keras.models.load_model("models/catvsdog.h5")
 
 st.title("🐶🐱 Dog vs Cat Classifier")
 
