@@ -2,8 +2,9 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
-
-model = tf.keras.models.load_model("catvsdog.h5")
+import os
+model_path = os.path.join(os.path.dirname(__file__), "catvsdog.h5")
+model = tf.keras.models.load_model(model_path)
 
 st.title("🐶🐱 Dog vs Cat Classifier")
 
