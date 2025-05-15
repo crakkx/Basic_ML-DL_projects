@@ -4,7 +4,7 @@ This project classifies images of cats and dogs using a custom Convolutional Neu
 
 Achieved **~92% validation accuracy** on the [Kaggle Dogs vs Cats dataset](https://www.kaggle.com/c/dogs-vs-cats).
 
-## 🚀 Features
+##  Features
 
 - CNN architecture built with TensorFlow Keras
 - Preprocessing using OpenCV
@@ -12,7 +12,7 @@ Achieved **~92% validation accuracy** on the [Kaggle Dogs vs Cats dataset](https
 - Web interface using Streamlit
 - Trained on Kaggle Cats vs Dogs dataset
 
-## 💻 App Demo
+## App Demo
 
 Run the app locally:
 
