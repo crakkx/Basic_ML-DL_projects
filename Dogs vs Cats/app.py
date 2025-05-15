@@ -12,7 +12,7 @@ st.write("Upload an image, and the model will predict if it's a dog or a cat.")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 def preprocess_image(image):
-    image = image.resize((198,198))  
+    image = image.resize((200,200))  
     img_array = np.array(image) / 255.0
     img_array = np.expand_dims(img_array, axis=0)
     return img_array
