@@ -11,9 +11,9 @@ Used the [MovieLens 100k latest dataset](https://grouplens.org/datasets/movielen
 - EDA with visualizations
 - Recommend top movies based on rating popularity
 - Content-based filtering using cosine similarity
-- Collaborative filtering using SVD
 
 ## Demo
 streamlit webapp
 
-
+## Future Improvement
+- Collaborative recommendation
