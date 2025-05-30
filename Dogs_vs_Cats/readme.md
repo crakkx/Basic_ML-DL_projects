@@ -14,6 +14,9 @@ Achieved **~92% validation accuracy** on the [Kaggle Dogs vs Cats dataset](https
 
 ## App Demo
 
+App Deployed with streamlit:
+https://dogsvscats.streamlit.app/
+
 Run the app locally:
 
 ```bash
